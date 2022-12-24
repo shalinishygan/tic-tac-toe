@@ -1,13 +1,13 @@
 :root {
-	--board-background: none;
-	--border-color: #f6546a;
+	--border-color: #000000;
 	--border-thickness: 5px;
+	--purple: #6B0D4F;
+	--light-purple: #f5abdfb0;
 }
 
 .board{
 	width: 30vw;
 	height: 50%;
-	background-color: var(--board-background);
 	display: flex;
 	align-items: flex-start;
 	flex-direction: row;
@@ -20,57 +20,51 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: whitesmoke;
-	font-family: 'Bellefair', serif;
+	color: var(--purple);
+	font-family: 'Arial', serif;
 	font-style: italic;
 	font-weight: 700;
 	font-size: 6rem;
 }
-
+.input.input-5{
+	color: var(--light-purple);
+}
 .input-1{
-	border-right: var(--border-thickness)
-	dashed var(--border-color);
-	border-bottom: var(--border-thickness)
-	dashed var(--border-color);
+	border-right: var(--border-thickness) solid var(--border-color);
+	border-bottom: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(-45deg, var(--purple), var(--light-purple),var(--light-purple));
 }
-
 .input-2{
-	border-right: var(--border-thickness)
-	dashed var(--border-color);
-	border-bottom: var(--border-thickness)
-	dashed var(--border-color);
+	border-right: var(--border-thickness) solid var(--border-color);
+	border-bottom: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(-0deg, var(--purple),var(--light-purple));
 }
-
 .input-3{
-	border-bottom: var(--border-thickness)
-	dashed var(--border-color);
+	border-bottom: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(45deg, var(--purple),var(--light-purple), var(--light-purple));
 }
-
 .input-4{
-	border-right: var(--border-thickness)
-	dashed var(--border-color);
-	border-bottom: var(--border-thickness)
-	dashed var(--border-color);
+	border-right: var(--border-thickness) solid var(--border-color);
+	border-bottom: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(-90deg, var(--purple),var(--light-purple));
 }
-
 .input-5{
-	border-right: var(--border-thickness)
-	dashed var(--border-color);
-	border-bottom: var(--border-thickness)
-	dashed var(--border-color);
+	border-right: var(--border-thickness) solid var(--border-color);
+	border-bottom: var(--border-thickness) solid var(--border-color);
+	background-color: var(--purple);
 }
-
 .input-6{
-	border-bottom: var(--border-thickness)
-	dashed var(--border-color);
+	border-bottom: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(90deg, var(--purple),var(--light-purple));
 }
-
 .input-7{
-	border-right: var(--border-thickness)
-	dashed var(--border-color);
+	border-right: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(-135deg, var(--purple),var(--light-purple), var(--light-purple));
 }
-
 .input-8{
-	border-right: var(--border-thickness)
-	dashed var(--border-color);
+	border-right: var(--border-thickness) solid var(--border-color);
+	background: linear-gradient(var(--purple),var(--light-purple));
+}
+.input-9{
+	background: linear-gradient(135deg, var(--purple),var(--light-purple), var(--light-purple));
 }
