@@ -10,7 +10,7 @@
 	flex-direction: column;
 	gap: 5vh;
 	backdrop-filter: 5px;
-	background-color: #101010;
+	background-color: #f5abdf;
 }
 
 .winner {
@@ -39,7 +39,7 @@
 	padding: .3em 1em .25em;	
 	font-weight: 600;
 	font-size: 2.5rem;
-	color: white;
+	color: #000000;
 	font-family: 'Bellefair', serif;
 	position:relative;
 	text-align: center;
